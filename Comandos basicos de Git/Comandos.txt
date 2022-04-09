@@ -1,0 +1,35 @@
+Como criar uma chave SSH
+
+Git Bash
+
+*ssh-keygen -t ed25519 -c e-mail
+
+*cat id_ed25519.pub
+
+Copiar a informação para o Github
+
+eval $(ssh-agent -s)
+
+ssh-add id_ed25519
+
+Iniciar o git e fazer commit
+
+*git init
+
+*git config --global user.email "e-mail"
+
+*git config --global user.name "nome do usuario"
+
+*git add *
+
+*git commit -m "explicar o que foi feito nesse commit"
+
+*git status
+
+caso as mudanças não estejam staged
+
+*git add nome do arquivo e/ou pasta/
+
+*git remote add origin link
+
+*git push origin master
