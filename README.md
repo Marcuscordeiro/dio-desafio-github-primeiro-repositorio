@@ -3,7 +3,7 @@ Repositório criado como resposta ao desafio de projeto sobre Git/Github
 
 
 
-[Comandos básicos do Git Bash](Comandos basicos de Git/Comandos.txt)
+[Comandos básicos do Git Bash](https://github.com/Marcuscordeiro/dio-desafio-github-primeiro-repositorio/blob/main/Comandos%20basicos%20de%20Git/Comandos.txt)
 
 
 
